@@ -29,7 +29,7 @@ elif forma_de_pagamento == 4:
     juros = preco_produto + (preco_produto * 20 / 100)
     parcelas = int(input('Em quanto será parcelada a sua compra? '))
     total = juros / parcelas
-    print(f'Sua compra em 3x no cartão, com 20% de juros, sai por R${juros:.2f}. R${total:.2f} ao mês.')
+    print(f'Sua compra em {parcelas}x no cartão, com 20% de juros, sai por R${juros:.2f}. R${total:.2f} ao mês.')
 
 
 else:
